@@ -5,7 +5,8 @@ html {
 
 body {
   font-size: 13px;
-  font-family: sans-serif;
+  font-family: Roboto, arial, sans-serif;
+
   height: 100%;
 }
 
@@ -23,11 +24,12 @@ li {
   vertical-align: middle;
 }
 
-nav,
-footer {
+nav {
   padding: 4px 20px;
 }
-
+footer {
+  padding: 0px 25px 0px 25px;
+}
 /*  Top Nav  */
 
 nav {
@@ -127,7 +129,7 @@ nav ul li a:hover {
 
 .center {
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -169,12 +171,30 @@ nav ul li a:hover {
   outline: none;
 }
 
+.search {
+  width: 17px;
+  height: 18px;
+  position: relative;
+  left: 3%;
+  top: 34px;
+  opacity: 75%;
+}
+
 .mic {
   width: 14px;
   height: 20px;
   position: relative;
-  left: 555px;
+  left: 499px;
   top: 34px;
+  cursor: pointer;
+}
+.camera {
+  width: 27px;
+  height: 27px;
+  position: relative;
+  left: 514px;
+  top: 38px;
+  cursor: pointer;
 }
 
 .submit_buttons {
